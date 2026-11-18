@@ -3,7 +3,7 @@ using namespace std;
 #include <vector>
 
 int main() {
-    vector<int> nums = {12, 4, 27, 8, 19, 3, 27};
+    vector<int> nums = {12, 4, 27, 8, 19, 3, 27, 55};
     int max_val = nums[0]; 
     int greater_than_ten = 0;
     
