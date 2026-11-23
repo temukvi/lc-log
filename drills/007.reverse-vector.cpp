@@ -15,10 +15,12 @@ int main() {
         right--;
     }
 
+    cout << "Reversed: ";
     for (int i = 0; i < nums.size(); i++) {
         cout << nums[i] << " ";
+        
     }
-    cout << endl;
+    cout << endl;    
 
     return 0;
 }
