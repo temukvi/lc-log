@@ -4,20 +4,17 @@ using namespace std;
 
 int main() {
     vector<int> nums = {14, 3, 27, 8, 19, 1, 22};
-    int max_val = nums[0];
-    int min_val = nums[0];
-
-    for (int i = 1; i < nums.size(); i++) {
-        if (nums[i] > max_val) {
-            max_val = nums[i];
+    int max_num = nums[0];
+    int min_num = nums[0];
+    for(int i = 0; i < nums.size(); i++){
+        if(nums[i] > max_num){
+            max_num = nums[i];
         }
-        if (nums[i] < min_val) {
-            min_val = nums[i];
+        if(nums[i] < min_num){
+            min_num = nums[i];
         }
     }
-
-    cout << "Max: " << max_val << endl;
-    cout << "Min: " << min_val << endl;
-
+    cout << "Maximum number is: " << max_num << endl;
+    cout << "Minimum number is: " << min_num << endl;
     return 0;
 }
